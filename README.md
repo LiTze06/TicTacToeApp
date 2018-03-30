@@ -7,4 +7,4 @@ Tic Tac Toe cross-platform mobile app. There are two modes: vs computer (minimax
 
 
 ## Reference
-https://www.neverstopbuilding.com/blog/2013/12/13/tic-tac-toe-understanding-the-minimax-algorithm13 
+- https://www.neverstopbuilding.com/blog/2013/12/13/tic-tac-toe-understanding-the-minimax-algorithm13 
