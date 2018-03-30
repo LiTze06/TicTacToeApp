@@ -1,4 +1,4 @@
-# TicTacToeApp
+# TicTacToe Mobile App
 Tic Tac Toe cross-platform mobile app. There are two modes: vs computer (minimax algorithm) or vs player. 
 
 ## Software Requirements
