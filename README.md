@@ -3,7 +3,8 @@ Tic Tac Toe cross-platform mobile app. There are two modes: vs computer (minimax
 
 ## Software Requirements
 - Xamarin 
-- Visual Studio 2018
+- Visual Studio 2017
+- Xamarin.Form v2.5.0
 
 
 ## Reference
