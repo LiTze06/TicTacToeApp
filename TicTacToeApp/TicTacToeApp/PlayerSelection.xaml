@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicTacToeApp.PlayerSelection">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black" Padding="20" ColumnSpacing="0" RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <Label x:Name="player1Label" FontSize="Medium" Text="Player 1:" Grid.Row="0" TextColor="White" Margin="0,20,0,0" HorizontalTextAlignment="Start"/>
+            <Label x:Name="player2Label" FontSize="Medium" Text="Player 2:" Grid.Row="0" TextColor="White" Margin="0,20,0,0" HorizontalTextAlignment="End"/>
+
+            <Label x:Name="playerTurnLabel" FontSize="Large" Text="Label" Grid.Row="1" TextColor="White" Margin="0,20,0,0" HorizontalTextAlignment="Center"/>
+
+            <Frame  Grid.Row="2" Padding="5" Margin="0,30,0,30" BackgroundColor="DeepSkyBlue">
+                <StackLayout >
+                    <Grid ColumnSpacing="0" RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Button x:Name="button1" Text="" FontSize="40" Grid.Row="0" Grid.Column="0" BackgroundColor="Black" Margin="3" Clicked="Button_Clicked" />
+                        <Button x:Name="button2" Text="" FontSize="40" Grid.Row="0" Grid.Column="1" BackgroundColor="Black" Margin="3" Clicked="Button_Clicked" />
+                        <Button x:Name="button3" Text="" FontSize="40" Grid.Row="0" Grid.Column="2" BackgroundColor="Black" Margin="3" Clicked="Button_Clicked" />
+                        <Button x:Name="button4" Text="" FontSize="40" Grid.Row="1" Grid.Column="0" BackgroundColor="Black" Margin="3" Clicked="Button_Clicked" />
+                        <Button x:Name="button5" Text="" FontSize="40" Grid.Row="1" Grid.Column="1" BackgroundColor="Black" Margin="3" Clicked="Button_Clicked" />
+                        <Button x:Name="button6" Text="" FontSize="40" Grid.Row="1" Grid.Column="2" BackgroundColor="Black" Margin="3" Clicked="Button_Clicked" />
+                        <Button x:Name="button7" Text="" FontSize="40" Grid.Row="2" Grid.Column="0" BackgroundColor="Black" Margin="2" Clicked="Button_Clicked" />
+                        <Button x:Name="button8" Text="" FontSize="40" Grid.Row="2" Grid.Column="1" BackgroundColor="Black" Margin="2" Clicked="Button_Clicked" />
+                        <Button x:Name="button9" Text="" FontSize="40" Grid.Row="2" Grid.Column="2" BackgroundColor="Black" Margin="2" Clicked="Button_Clicked" />
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <StackLayout Grid.Row="3" Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                <Button x:Name="backButton" FontSize="Large" TextColor="Black" Text="Back" HorizontalOptions="FillAndExpand" BackgroundColor="White" Clicked="BackButton_Clicked" />
+                <Button x:Name="resetButton" FontSize="Large" TextColor="Black" Text="Reset" HorizontalOptions="FillAndExpand" BackgroundColor="White" Clicked="ResetButton_Clicked" />
+            </StackLayout>
+
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
