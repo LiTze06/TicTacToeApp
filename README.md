@@ -8,7 +8,7 @@ Tic Tac Toe cross-platform mobile app. There are two modes: vs computer (minimax
 
 ## Screenshot 
 Main Page
-<img src="images/apppic1 width="200" height="100"></img>
+<img src="images/apppic1" width="100" height="50">
           
 ![apppic1](https://user-images.githubusercontent.com/20731546/38120248-f7f7286a-3423-11e8-9153-0510bbb2d270.PNG)
 
