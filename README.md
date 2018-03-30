@@ -1,7 +1,7 @@
 # TicTacToeApp
 Tic Tac Toe cross-platform mobile app. There are two modes: vs computer (minimax algorithm) or vs player. 
 
-## Software 
+## Software Requirements
 - Xamarin 
 - Visual Studio 2018
 
